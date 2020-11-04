@@ -51,3 +51,7 @@ http://127.0.0.1:5000/
 ## **FONCTIONNEMENT**
 
 Saisissez votre question dans la zone prévue à cet effet puis validez en appuyant sur Entrée ou en cliquant sur Envoyer.
+
+## Grandpy est en ligne
+
+Vous pouvez lui poser vos questions ici : [**Grandpy**](https://grandpy-mo1.herokuapp.com/)
