@@ -16,7 +16,7 @@ Pour le faire fonctionner vous devez :
 
 	2. Posseder une clé d'identifiant Google Maps API
 
-		Si vous n'en possédez pas, voir ici : [cloud.google.com](https://fr.openfoodfacts.org/https://cloud.google.com/)
+		Si vous n'en possédez pas, voir ici : [cloud.google.com](https://cloud.google.com/)
 
 	3. Renseigner la clé sur le fichier de configuration
 
