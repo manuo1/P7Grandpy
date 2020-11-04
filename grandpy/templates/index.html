@@ -1,0 +1,35 @@
+
+{% extends 'base.html' %}
+{% block main %}
+<!-- Messages zone -->
+    <div class='container mt-1 h-50 overflow-auto' id=messagesZone>
+      <div class='row'>
+        <div class='d-none d-sm-block col-md-1 mt-1 py-1'>
+        </div>
+        <div class='rounded text-white bg-secondary col-12 col-md-9 mt-1 py-1'>
+        GrandPy : Bonjour, veux tu des infos sur un lieu ?
+        </div>
+        <div class='d-none d-sm-block col-md-2 mt-1 py-1'>
+        </div>
+      </div>
+    </div>
+<!-- form field -->
+    <div class='container mt-1'>
+      <form id='myForm'>
+        <div class='row'>
+          <div class='col-lg-10 py-1'>
+            <input type='text' class='form-control' id='newUserMessage' name='newUserMessage' placeholder='Votre message ici...'>
+          </div>
+          <div class='col-lg-2 py-1'>
+            <button type='submit' class='btn btn-primary btn-block' id=submitButton>
+              Envoyer
+            </button>
+            <button class='btn btn-primary btn-block d-none mt-0' type='button' disabled id=spinerBorderButton>
+              <span class='spinner-border spinner-border-sm' role='status' aria-hidden='true'></span>
+              Réflexion...
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+{% endblock main %}
