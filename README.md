@@ -1,4 +1,4 @@
-# GrandPy
+# **GrandPy**
 
 ## DESCRIPTION
 
@@ -18,11 +18,11 @@ Pour le faire fonctionner vous devez :
 
 - pip
 
-1. **Posséder une clé d&#39;identifiant Google Maps API**
+**1. Posséder une clé d&#39;identifiant Google Maps API**
 
 Si vous n&#39;en possédez pas, voir ici : [cloud.google.com](https://cloud.google.com/)
 
-1. **Renseigner la clé sur le fichier de configuration**
+**2. Renseigner la clé sur le fichier de configuration**
 
 Ouvrez le fichier :
 
@@ -36,18 +36,18 @@ Par votre clé Google (Les &#39; &#39; sont importants)
 
 (Deux clés sont demandées, si vous voulez utiliser cette application en local vous n&#39;avez pas besoin de deux clés, il suffit de renseigner deux fois la même. Si vous souhaitez déployer cette application vous devrez posséder deux clés, la clé privée ne sera pas visible par les utilisateurs, mais la clé publique le serra. A vous de limiter l&#39;utilisation de celle-ci avec les restrictions proposées par le tableau de bord de la Google Cloud Plateform)
 
-1. **Dans un terminal placer vous dans le fichier &#39;main&#39; et lancez l&#39;installation avec :**
+**3. Dans un terminal placer vous dans le fichier &#39;main&#39; et lancez l&#39;installation avec :**
 
 pip install.r requirements.txt
 
-1. **Lancez l&#39;application avec :**
+**4. Lancez l&#39;application avec :**
 
 python run.py
 
-1. **Ouvrez votre navigateur internet et rendez-vous à l&#39;adresse :**
+**5. Ouvrez votre navigateur internet et rendez-vous à l&#39;adresse :**
 
 http://127.0.0.1:5000/
 
-## FONCTIONNEMENT
+## **FONCTIONNEMENT**
 
 Saisissez votre question dans la zone prévue à cet effet puis validez en appuyant sur Entrée ou en cliquant sur Envoyer.
